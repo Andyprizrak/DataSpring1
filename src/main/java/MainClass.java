@@ -40,28 +40,6 @@ public class MainClass {
     }
 
     public static void main(String[] args) {
-//        SessionFactory factory = new Configuration()
-//                .configure("hibernate.cfg.xml")
-//                .addAnnotatedClass(Product.class)
-//                .addAnnotatedClass(Checkin.class)
-//                .addAnnotatedClass(Byer.class)
-// //               .addAnnotatedClass(Test.class)
-//                .buildSessionFactory();
-//        Session session;
-//        session = factory.getCurrentSession();
-//        session.beginTransaction();
-////        Product product = session.get(Product.class, 2);
-////        System.out.println(product);
-////        List<Product> products = session.createQuery("from Product a WHERE a.id=1").getResultList();
-//        List<Product> products = session.createQuery("from Product").getResultList();
-//        System.out.println(products);
-////        System.out.println(products.get(2));
-//        List<Byer> byers = session.createQuery("from Byer").getResultList();
-//        System.out.println(byers);
-////        Checkin checks = session.get(Checkin.class, 1);
-//        List<Checkin> checks = session.createQuery("from Checkin a WHERE a.checkin_byer_id =1").getResultList();
-//        System.out.println(checks);
-//        session.getTransaction().commit();
 
 // Поиск списка товаров покупателем
         findeByer("1");

@@ -14,16 +14,7 @@ public class Byer {
     private int byer_id;
     @Column(name = "byer_name")
     private String byer_name;
-//
-//    @ManyToMany
-////    @Cascade(org.hibernate.annotations.CascadeType.DELETE)
-//    @JoinTable(
-//            name = "product_byer",
-//            joinColumns = @JoinColumn(name = "byer_id"),
-//            inverseJoinColumns = @JoinColumn(name = "product_id")
-//    )
-//    private List<Product> products;
-//
+
     public int getId() {
         return byer_id;
     }
