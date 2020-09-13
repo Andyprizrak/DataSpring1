@@ -16,16 +16,7 @@ public class Checkin {
     private int checkin_byer_id;
     @Column(name = "checkin_product_id")
     private int checkin_product_id;
-    //
-//    @ManyToMany
-////    @Cascade(org.hibernate.annotations.CascadeType.DELETE)
-//    @JoinTable(
-//            name = "product_byer",
-//            joinColumns = @JoinColumn(name = "byer_id"),
-//            inverseJoinColumns = @JoinColumn(name = "product_id")
-//    )
-//    private List<Product> products;
-//
+
     public int getId() {
         return checkin_id;
     }
